@@ -1,0 +1,137 @@
+body /* Page body background colour and margins*/ {
+  background-image: url(images/undiscoveredbackgroundedited.jpg);
+background-color: #cccccc; /* type of white */
+  overflow: hidden;
+    
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+nav ul li
+{
+    list-style-image: none;
+    background-color: purple; /*#919191*/
+    display: inline;
+
+}
+
+nav ul li a 
+{
+    color: white;
+    text-decoration: none;
+
+}
+nav
+{
+  padding: 5px;
+    
+
+}
+
+nav ul li
+{
+  padding: 15px;
+    margin: 5px;
+
+    border-radius: 10px;
+}
+nav ul li:hover
+{
+    background-color: #87CEEB; /* deepskyblue */
+}                                                  
+
+body.pancake { 
+  min-height: 500vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+} 
+
+nav 
+{
+  background-color: #f5f5f5; /* type of white */
+}
+
+main.singleCol {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 55vh;
+
+  padding: 3vh 0;
+}
+/*
+#events .card-header {
+  text-align: center;
+  
+  background-color: #f5f5f5; /* white 
+  
+}
+
+#events a {
+  color: #FF0000; /* red 
+  transition: all 0.5 ease;
+}
+
+#events ul {
+  padding-left: 0; /* Get rid of this and list-style: none if you want bullets points 
+  margin-bottom: 0;
+  list-style: none;
+  background-color: white;
+} */
+
+footer {
+  padding: 1.25ch 0;
+  color: #ffffff;               /* type of white */
+  text-align: center;
+  background-color: #f0f8ff;  /* aliceblue */
+}
+
+footer p {
+    text-align: center;
+    width:auto;
+    height: auto;
+    text-emphasis-position: above;
+}
+
+.container {
+   position:static;
+  text-align: center;
+  color: #000000; /*black*/
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bio 
+{
+    text-align: center;
+    max-width: 515px;
+    
+}
+
+aside {
+   float: right;
+}
+
+img {
+   image-orientation: bottom;
+    width: 300px;
+
+}
+
+
